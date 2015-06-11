@@ -33,6 +33,8 @@ The first command requires Flask 1.0, I believe, but handles restarting the serv
 
 Using python -m viz might be preferable to the second case, but might require some finagling to get working.
 
+After the server is running, the frontend will be accessible via a web browser connected to [localhost on port 5000](http://localhost:5000).
+
 ## Research and Development Process
 
 The research behind this project actually dates back to the beginning of 2015, when Nathaniel started researching Fault Detection, Isolation, and Recovery (FDIR) system design as part of his graduate research in Aeronautics & Astronautics. Prior to this, he had worked on code and testing related to FDIR systems at SpaceX, and had used a few different telemetry monitoring and analysis tools. The tools that he used informed his work and some of the early design decisions that were made on this project.
